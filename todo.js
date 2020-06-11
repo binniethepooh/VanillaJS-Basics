@@ -47,6 +47,7 @@ function handleSubmit(event) {
   const currentValue = toDoInput.value;
   paintToDo(currentValue);
   toDoInput.value = "";
+  //인풋에 쓰고 없어지는거야!
 }
 
 function loadToDos() {
